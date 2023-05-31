@@ -8,7 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/swiper.css?001" />
 </head>
 <body>
 <header id="header" class="main">
@@ -84,7 +84,7 @@
 <div class="container" id="container">
 
     <div class="section video" id="section1">
-        <video id="main-video" loop autoplay muted playsinline src="./img/video_main.mov"></video>
+        <video id="main-video" loop autoplay muted playsinline src="./../img/video_main.mov"></video>
         <div class="inner">
             <h1 class="tit">
                 컨설팅부터<br/>설비제조·생산연구까지<br/>
@@ -108,7 +108,7 @@
                 <div class="swiper business_slide">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide item">
-                            <img src="./img/bg_main_business01.png" alt="">
+                            <img src="./../img/bg_main_business01.png" alt="">
                             <div class="txt">
                                 <div>
                                     <strong>토탈솔루션</strong>
@@ -119,7 +119,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide item">
-                            <img src="./img/bg_main_business02.png" alt="">
+                            <img src="./../img/bg_main_business02.png" alt="">
                             <div class="txt">
                                 <div>
                                     <strong>설비제조</strong>
@@ -129,7 +129,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide item">
-                            <img src="./img/bg_main_business03.png" alt="">
+                            <img src="./../img/bg_main_business03.png" alt="">
                             <div class="txt">
                                 <div>
                                     <strong>교육&Battery Academy</strong>
@@ -139,7 +139,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide item">
-                            <img src="./img/bg_main_business04.png" alt="">
+                            <img src="./../img/bg_main_business04.png" alt="">
                             <div class="txt">
                                 <div>
                                     <strong>셀제조</strong>
@@ -182,26 +182,26 @@
                 <div thumbsSlider="" class="swiper slide_con">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide item">
-                            <img src="./img/bg_main_product01.png">
+                            <img src="./../img/bg_main_product01.png">
                             <p>당사가 보유한 각 전극 공정 Pilot 장비로 사전 양산성 검증
                                 및 고객이 원하는 배터리 솔루션을 제공합니다</p>
                         </div>
                         <div class="swiper-slide item">
-                            <img src="./img/bg_main_product02.png">
+                            <img src="./../img/bg_main_product02.png">
                             <p class="">
                                 고객이 원하는 규격의 전극뿐만 아니라 21700 모델
                                 제작을 위한 단위 공정별 Pilot 장비로 전지를 제공합니다
                             </p>
                         </div>
                         <div class="swiper-slide item">
-                            <img src="./img/bg_main_product03.png">
+                            <img src="./../img/bg_main_product03.png">
                             <p>
                                 고객이 원하는 크기·모양의 전극을 제작한 후,
                                 파우치형 전지 단위 공정별 Pilot 장비로 전지를 제공합니다
                             </p>
                         </div>
                         <div class="swiper-slide item">
-                            <img src="./img/bg_main_product04.png">
+                            <img src="./../img/bg_main_product04.png">
                             <p>
                                 각형 전지는 Jelly Roll 제작 시 와인딩 방식 및 스택 방식
                                 모두 적용 가능합니다
@@ -417,7 +417,7 @@
             clickable: true,
         },
     });
-
+    
     /*** 프로덕트**/
     var slide_tab = new Swiper(".slide_tab", {
         slidesPerView: "auto",
